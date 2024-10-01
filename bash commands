@@ -1,0 +1,33 @@
+# git
+alias gs='git status'
+alias ga='git add'
+alias gco='git commit -m'
+alias gp='git push'
+alias gr='git remote'
+alias gch='git checkout'
+alias gcl='git clone'
+alias gba='git branch -a'
+
+# system
+alias lsh='ls -la'
+alias work='cd ~/Documents/work/'
+alias net?='ping -c 3 google.com'
+alias sau='sudo apt-get update'
+alias dl='cd ~/Downloads'
+alias dt='cd ~/Desktop'
+alias short='vi ~/.bashrc'
+alias dfnmode="echo 0 | sudo tee /sys/module/hid_apple/parameters/fnmode"
+alias afnmode="echo 1 | sudo tee /sys/module/hid_apple/parameters/fnmode"
+
+
+alias art='php artisan'
+alias comi='composer install'
+alias cda='composer dump-autoload'
+
+# docker
+alias ds='docker compose'
+alias dcf='docker compose exec php composer run format'
+alias dcp='docker compose exec php composer run phpstan'
+
+## netsells 
+alias naar='netsells aws:assume-role'
